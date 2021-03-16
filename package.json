@@ -21,7 +21,9 @@
     "deploy-storybook": "npm run deploy-storybook --prefix ./packages/example-react",
     "format": "prettier --trailing-comma es5 --single-quote --write 'packages/**/*.js' 'packages/**/*.json'"
   },
-  "keywords": [],
+  "keywords": [
+    "storybook-addon"
+  ],
   "author": "",
   "license": "ISC",
   "husky": {
